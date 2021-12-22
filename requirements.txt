@@ -1,0 +1,4 @@
+alpaca-trade-api
+requests
+black
+beautifulsoup4
