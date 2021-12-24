@@ -1,9 +1,10 @@
 from math import floor
 from util import alpaca_util
+from time import sleep
 
 
 class TradeBot:
-    def __init__(self, strategy, equity=10000, max_positions=5):
+    def __init__(self, strategy, equity=5000, max_positions=5):
         self.positions = []
         self.strategy = strategy
         self.equity = equity
@@ -12,6 +13,7 @@ class TradeBot:
 
     def update(self):
         self.update_positions()
+        sleep(3)
         if self.should_buy():
             self.buy()
 
@@ -40,7 +42,7 @@ class TradeBot:
 
     def remove_stocks_already_holding(self, stocks):
         for p in self.positions:
-            stocks.remove(p.stock.data["symbol"])
+            stocks.remove(p.stock)
 
     def calculate_qty(self, stock):
         if not "price" in stock.data:

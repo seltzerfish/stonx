@@ -3,7 +3,7 @@ from constants import API
 
 
 class TrailingStop(SellingStrategyBase):
-    def __init__(self, trail_percent=5):
+    def __init__(self, trail_percent=3):
         super().__init__()
         self.trail_percent = trail_percent
 

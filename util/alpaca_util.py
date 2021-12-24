@@ -58,5 +58,21 @@ def get_current_price(stock):
     return API.get_last_trade(stock.data["symbol"]).price
 
 
+def sell_all_positions():
+    portfolio = API.list_positions()
+    for position in portfolio:
+        API.submit_order(
+            symbol=position.symbol,
+            qty=position.qty,
+            side="sell",
+            type="market",
+            time_in_force="gtc",
+        )
+
+
+def cancel_all_orders():
+    API.cancel_all_orders()
+
+
 NON_TRADABLE_CACHE = load_non_tradable_cache()
 TRADABLE_CACHE = load_tradable_cache()
