@@ -15,7 +15,7 @@ PAPER = {
 ```
 
 ## Regular Usage
-This is a modular framework that aims to separate the higher level strategy from the lower level tedious work. You need only provide 3 things:
+This is a modular framework that aims to abstract and separate the higher level strategy while automating the tedious low-level work. You need only provide 3 things:
 1. Your **sourcing** strategy - *Where* to look for stocks.
 2. Your **buying** strategy - *How* to pick which stock(s) to buy.
 3. your **selling** strategy - *When* to sell.
