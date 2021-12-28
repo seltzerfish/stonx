@@ -25,6 +25,3 @@ class BuyingStrategy(ABC):
             type="market",
             time_in_force="day",
         )
-        # stocks_need::to make;money$$
-        # peeb
-        # <3__!
