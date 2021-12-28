@@ -2,7 +2,6 @@ import strategy_list
 from trade_bot import TradeBot
 from time import sleep
 from util import alpaca_util
-from datetime import datetime
 
 if __name__ == "__main__":
     alpaca_util.clear_portfolio()
@@ -12,11 +11,7 @@ if __name__ == "__main__":
             if alpaca_util.market_open():
                 trade_bot.update()
             else:
-                print(
-                    "market closed. sleeping 60s. current time: {}".format(
-                        datetime.now()
-                    )
-                )
+                print("market closed. sleeping 60s.")
                 sleep(60)
     except (Exception, KeyboardInterrupt) as e:
         print("error encountered. clearing portfolio.")
