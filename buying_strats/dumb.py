@@ -5,3 +5,8 @@ from random import choice
 class RandomBuy(BuyingStrategy):
     def choose_stock_to_buy(self, stocks):
         return choice(stocks)
+
+
+class ChooseFirst(BuyingStrategy):
+    def choose_stock_to_buy(self, stocks):
+        return stocks[0]

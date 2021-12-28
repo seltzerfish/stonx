@@ -74,5 +74,10 @@ def cancel_all_orders():
     API.cancel_all_orders()
 
 
+def clear_portfolio():
+    cancel_all_orders()
+    sell_all_positions()
+
+
 NON_TRADABLE_CACHE = load_non_tradable_cache()
 TRADABLE_CACHE = load_tradable_cache()

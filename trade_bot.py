@@ -1,6 +1,7 @@
 from math import floor
 from util import alpaca_util
 from time import sleep
+from util.misc_util import market_closing_soon
 
 
 class TradeBot:
@@ -13,7 +14,9 @@ class TradeBot:
 
     def update(self):
         self.update_positions()
-        sleep(3)
+        sleep(3)  # some buffer time to prevent the API from ratelimiting us
+        if market_closing_soon():
+            return
         if self.should_buy():
             self.buy()
 
