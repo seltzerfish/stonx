@@ -8,7 +8,7 @@ def get_header():
 
 
 def _get_random_ua():
-    with open("/Users/connerlane/git/stonx/util/ua.txt", "r") as f:
+    with open("util/ua.txt", "r") as f:
         ua_list = [line.strip() for line in f]
         return choice(ua_list)
 
