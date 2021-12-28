@@ -5,7 +5,7 @@ from util.misc_util import market_closing_soon
 
 
 class TradeBot:
-    def __init__(self, strategy, equity=5000, max_positions=5):
+    def __init__(self, strategy, equity=10000, max_positions=5):
         self.positions = []
         self.strategy = strategy
         self.equity = equity
@@ -15,8 +15,6 @@ class TradeBot:
     def update(self):
         self.update_positions()
         sleep(3)  # some buffer time to prevent the API from ratelimiting us
-        if market_closing_soon():
-            return
         if self.should_buy():
             self.buy()
 
@@ -29,6 +27,8 @@ class TradeBot:
         self.positions = [p for p in self.positions if not p.exited]
 
     def should_buy(self):
+        if market_closing_soon():
+            return False
         if len(self.positions) < self.max_positions:
             return True
         return False

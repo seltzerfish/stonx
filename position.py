@@ -14,7 +14,7 @@ class Position:
         self.investment = 0
         self.wait_for_buy_order_to_fill()
 
-    #TODO: need to rework this logic for buys that we intentionally delay (e.g. "dont buy until 10am EST")
+    # TODO: need to rework this logic for buys that we intentionally delay (e.g. "dont buy until 10am EST")
     def wait_for_buy_order_to_fill(self):
         placed_buy_order = API.get_order(self.buy_order.id)
         while not placed_buy_order.filled_qty == placed_buy_order.qty:
