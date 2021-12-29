@@ -48,6 +48,5 @@ class TradeBot:
             stocks.remove(p.stock)
 
     def calculate_qty(self, stock):
-        if not "price" in stock.data:
-            stock.data["price"] = alpaca_util.get_current_price(stock)
-        return floor((self.equity / self.max_positions) / stock.data["price"])
+        price = stock.get_price()
+        return floor((self.equity / self.max_positions) / price)
