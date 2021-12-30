@@ -5,7 +5,7 @@ from util.misc_util import market_closing_soon
 
 
 class TradeBot:
-    def __init__(self, strategy, equity=10000, max_positions=5):
+    def __init__(self, strategy, equity=10000, max_positions=4):
         self.positions = []
         self.strategy = strategy
         self.equity = equity
