@@ -8,7 +8,7 @@ class Stock:
     def get_price(self):
         if "price" in self.data:
             return self.data["price"]
-        self.data["price"] = get_current_price(self.data["symbol"])
+        self.data["price"] = get_current_price(self)
         return self.data["price"]
 
     def __hash__(self):
