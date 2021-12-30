@@ -2,9 +2,9 @@
 
 ## First time setup
 
-
-1. pip install requirements.txt in a new `venv`.
-2. Make a `creds.py` file, and create a `dict` literal called `PAPER`, and include your alpaca keys like this:
+1. Make an [Alpaca](https://alpaca.markets/) account
+2. pip install requirements.txt in a new `venv`.
+3. Make a `creds.py` file, and create a `dict` literal called `PAPER`, and include your alpaca keys like this:
 
 ```
 PAPER = {
