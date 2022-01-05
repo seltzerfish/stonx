@@ -2,7 +2,7 @@ from constants import API
 
 
 def is_tradable(symbol):
-    if symbol in NON_TRADABLE_CACHE:
+    if symbol in BLACKLIST or symbol in NON_TRADABLE_CACHE:
         return False
     if symbol in TRADABLE_CACHE:
         return True
@@ -19,6 +19,13 @@ def is_tradable(symbol):
         NON_TRADABLE_CACHE.add(symbol)
         save_non_tradable_cache()
     return False
+
+
+def load_blacklist():
+    cache = set()
+    with open("BLACKLIST.txt", "r") as f:
+        [cache.add(line.strip()) for line in f]
+    return cache
 
 
 def load_tradable_cache():
@@ -79,5 +86,6 @@ def clear_portfolio():
     sell_all_positions()
 
 
+BLACKLIST = load_blacklist()
 NON_TRADABLE_CACHE = load_non_tradable_cache()
 TRADABLE_CACHE = load_tradable_cache()
