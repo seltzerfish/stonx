@@ -11,3 +11,15 @@ class DontSellTilEOD(SellingStrategyBase):
             return
         sleep(1)  # do nothing
         super().update(position)
+
+
+# Never sell... Ever...
+class NeverSell(SellingStrategyBase):
+    def __init__(self):
+        super().__init__(sell_by_eod=False)
+
+    def update(self, position: Position):
+        if position.sell_order:
+            return
+        sleep(1)  # do nothing
+        super().update(position)
