@@ -13,6 +13,6 @@ if __name__ == "__main__":
             else:
                 sleep(60)
     except (Exception, KeyboardInterrupt) as e:
-        print("error encountered. clearing portfolio.")
+        print("*** ERROR ENCOUNTERED. SELLING ALL POSITIONS ***\n")
         alpaca_util.clear_portfolio()
         raise e

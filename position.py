@@ -45,4 +45,4 @@ class Position:
 
     def exit(self):
         self.exited = True
-        print("{} has been sold.".format(self.stock.data["symbol"]))
+        print("{} has been sold. ".format(self.stock.data["symbol"]))
