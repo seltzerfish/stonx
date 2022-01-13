@@ -18,7 +18,6 @@ class TrailingStop(SellingStrategyBase):
             trail_price=self.get_percent_conversion(position),
             time_in_force="day",
         )
-        super().update(position)
 
     def get_percent_conversion(self, position):
         return str(position.entry_price * (self.trail_percent / 100))

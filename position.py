@@ -14,18 +14,23 @@ class Position:
         self.investment = 0
         self.wait_for_buy_order_to_fill()
 
-    # TODO: need to rework this logic for buys that we intentionally delay (e.g. "dont buy until 10am EST")
-    def wait_for_buy_order_to_fill(self):
+    def buy_order_has_been_filled(self):
+        if self.entry_price > 0:
+            return True
+        return self.check_if_buy_order_filled()
+
+    def check_if_buy_order_filled(self):
         placed_buy_order = API.get_order(self.buy_order.id)
-        while not placed_buy_order.filled_qty == placed_buy_order.qty:
-            sleep(0.1)
-            placed_buy_order = API.get_order(self.buy_order.id)
+        if not placed_buy_order.filled_qty == placed_buy_order.qty:
+            return False
+        placed_buy_order = API.get_order(self.buy_order.id)
         self.qty = placed_buy_order.filled_qty
         self.entry_price = float(placed_buy_order.filled_avg_price)
         self.investment = self.entry_price * float(placed_buy_order.qty)
+        return True
 
     def update(self):
-        self.sell_strategy.update(self)
+        self.sell_strategy.update_sell_strategy(self)
         if not self.sell_order:
             return
         placed_sell_order = API.get_order(self.sell_order.id)

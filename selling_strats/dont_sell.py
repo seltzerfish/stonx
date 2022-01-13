@@ -10,7 +10,6 @@ class DontSellTilEOD(SellingStrategyBase):
         if position.sell_order:
             return
         sleep(1)  # do nothing
-        super().update(position)
 
 
 # Never sell... Ever...
@@ -22,4 +21,3 @@ class NeverSell(SellingStrategyBase):
         if position.sell_order:
             return
         sleep(1)  # do nothing
-        super().update(position)

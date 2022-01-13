@@ -11,9 +11,14 @@ class SellingStrategyBase(ABC):
     def prepare(self):
         pass
 
-    @abstractmethod
-    def update(self, position: Position):
-        if not self.sell_by_eod or position.sell_order:
+    def update_sell_strategy(self, position: Position):
+        if not position.buy_order_has_been_filled():
+            return
+
+        # Inherited method
+        self.update(position)
+
+        if (not self.sell_by_eod) or position.sell_order:
             return
         if market_closing_soon():
 
@@ -30,3 +35,7 @@ class SellingStrategyBase(ABC):
                 type="market",
                 time_in_force="day",
             )
+
+    @abstractmethod
+    def update(self, position: Position):
+        pass
