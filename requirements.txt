@@ -1,5 +1,6 @@
+setuptools==57.5.0
 alpaca-trade-api
 requests
 black
 beautifulsoup4
-pygooglenews
+# pygooglenews maybe not working anymore
