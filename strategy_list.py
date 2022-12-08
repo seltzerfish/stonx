@@ -2,24 +2,26 @@ from sourcing_strats.tradeview import TopMovers, MostVolatile
 from buying_strats.dumb import RandomBuy, ChooseFirst
 from selling_strats.trailing_stop import TrailingStop
 from selling_strats.dont_sell import DontSellTilEOD, NeverSell
-from sourcing_strats.google_news import GoogNewsBest
+from sourcing_strats.hardcoded import Hardcoded
+from sourcing_strats.apewisdom import ShortSqueeze
+from sourcing_strats.levelfields import LatestBullish
+from buying_strats.reddit import Reddit
 from strategy import Strategy
 
 
 TEST_STRATEGY = Strategy(
     "TEST",
     [
-        MostVolatile(),
-        TopMovers(),
+        Hardcoded(),
     ],
-    RandomBuy(),
-    TrailingStop(),
+    ChooseFirst(),
+    NeverSell(),
 )
 
-GOOG_NEWS_TEST_STRATEGY = Strategy(
-    "GOOG_NEWS_TEST",
+LEVELFIELDS_STRATEGY = Strategy(
+    "LEVELFIELDS",
     [
-        GoogNewsBest(),
+        LatestBullish(),
     ],
     ChooseFirst(),
     DontSellTilEOD(),

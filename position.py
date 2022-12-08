@@ -1,5 +1,4 @@
 from constants import API
-from time import sleep
 
 
 class Position:
@@ -12,7 +11,6 @@ class Position:
         self.entry_price = 0
         self.qty = 0
         self.investment = 0
-        self.wait_for_buy_order_to_fill()
 
     def buy_order_has_been_filled(self):
         if self.entry_price > 0:

@@ -62,7 +62,7 @@ def market_open():
 
 
 def get_current_price(stock):
-    return API.get_last_trade(stock.data["symbol"]).price
+    return API.get_latest_trade(stock.data["symbol"]).price
 
 
 def sell_all_positions():

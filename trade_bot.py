@@ -1,15 +1,15 @@
 from math import floor
-from util import alpaca_util
 from time import sleep
+from constants import MAX_POSITIONS, MIN_STOCK_PRICE
 from util.misc_util import market_closing_soon
 
 
 class TradeBot:
-    def __init__(self, strategy, equity=10000, max_positions=4):
+    def __init__(self, strategy, equity=10000):
         self.positions = []
         self.strategy = strategy
         self.equity = equity
-        self.max_positions = max_positions
+        self.max_positions = MAX_POSITIONS
         self.strategy.prepare()
 
     def update(self):
@@ -37,6 +37,9 @@ class TradeBot:
         # source list of stocks
         stocks = self.strategy.source()
         self.remove_stocks_already_holding(stocks)
+        self.remove_stocks_too_low_price(stocks)
+        if not list(stocks):
+            return
         # pick one from the list
         stock_to_buy = self.strategy.choose_stock(stocks)
         # buy it
@@ -46,6 +49,9 @@ class TradeBot:
     def remove_stocks_already_holding(self, stocks):
         for p in self.positions:
             stocks.remove(p.stock)
+
+    def remove_stocks_too_low_price(self, stocks):
+        stocks = [s for s in stocks if s.get_price() > MIN_STOCK_PRICE]
 
     def calculate_qty(self, stock):
         price = stock.get_price()

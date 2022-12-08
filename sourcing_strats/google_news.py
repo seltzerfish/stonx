@@ -16,7 +16,7 @@ class GoogNewsBest(SourcingStrategy):
         return get_goog("stocks to buy")
 
 
-def get_goog(query, pages_to_search=7, max_stocks=50):
+def get_goog(query, pages_to_search=10, max_stocks=50):
     stocks = defaultdict(int)
     results = gn.search(query, when="2d")["entries"][:pages_to_search]
     for r in results:

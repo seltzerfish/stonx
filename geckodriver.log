@@ -1,0 +1,237 @@
+1669933001289	geckodriver	INFO	Listening on 127.0.0.1:54200
+1669933004335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54201" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileHdX1jZ"
+1669933022907	geckodriver	INFO	Listening on 127.0.0.1:54290
+1669933025958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileMe9BhI"
+1669933026304	Marionette	INFO	Marionette enabled
+1669933026309	Marionette	INFO	Listening on port 54302
+WebDriver BiDi listening on ws://127.0.0.1:54291
+Read port: 54302
+1669933026598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileMe9BhI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54291/devtools/browser/e31f059a-6b9e-4b15-8296-2aed15d02cab
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+1669933034140	Marionette	INFO	Stopped listening on port 54302
+[Parent 14976, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669933053241	geckodriver	INFO	Listening on 127.0.0.1:54371
+1669933056284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54372" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofile3y8oOC"
+1669933056643	Marionette	INFO	Marionette enabled
+1669933056647	Marionette	INFO	Listening on port 54382
+WebDriver BiDi listening on ws://127.0.0.1:54372
+Read port: 54382
+1669933056954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofile3y8oOC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54372/devtools/browser/7a82dda8-fd96-40cb-ada4-11abaf76cbe4
+1669933069137	Marionette	INFO	Stopped listening on port 54382
+1669933208809	geckodriver	INFO	Listening on 127.0.0.1:54733
+1669933211848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54734" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileDuSobo"
+1669933212357	Marionette	INFO	Marionette enabled
+1669933212363	Marionette	INFO	Listening on port 54746
+Read port: 54746
+WebDriver BiDi listening on ws://127.0.0.1:54734
+1669933212498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileDuSobo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54734/devtools/browser/68bee197-bcd9-4278-8170-92d941ab2896
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669933227524	Marionette	INFO	Stopped listening on port 54746
+1669933366917	geckodriver	INFO	Listening on 127.0.0.1:55057
+1669933369955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55058" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileVc6u3D"
+1669933370326	Marionette	INFO	Marionette enabled
+1669933370332	Marionette	INFO	Listening on port 55070
+WebDriver BiDi listening on ws://127.0.0.1:55058
+Read port: 55070
+1669933370528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileVc6u3D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55058/devtools/browser/10a15ded-fcf8-46ca-b3b6-f95c19acaff7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669933389939	Marionette	INFO	Stopped listening on port 55070
+[Parent 30888, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669933916790	geckodriver	INFO	Listening on 127.0.0.1:55712
+1669933919829	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55713" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileGMWzsK"
+1669933920215	Marionette	INFO	Marionette enabled
+1669933920220	Marionette	INFO	Listening on port 55725
+Read port: 55725
+WebDriver BiDi listening on ws://127.0.0.1:55713
+1669933920466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileGMWzsK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55713/devtools/browser/53492c16-6dfe-48a4-9a41-878533e5c099
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669933942195	Marionette	INFO	Stopped listening on port 55725
+1669934144432	geckodriver	INFO	Listening on 127.0.0.1:56145
+1669934147474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56146" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileEQgdpR"
+1669934147813	Marionette	INFO	Marionette enabled
+1669934147818	Marionette	INFO	Listening on port 56158
+WebDriver BiDi listening on ws://127.0.0.1:56146
+Read port: 56158
+1669934148342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileEQgdpR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56146/devtools/browser/c66222b6-eae4-4fde-9197-7e4003c2bc20
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56513
+1669934309654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileabWddX"
+1669934310008	Marionette	INFO	Marionette enabled
+1669934310014	Marionette	INFO	Listening on port 56525
+WebDriver BiDi listening on ws://127.0.0.1:56514
+Read port: 56525
+1669934310310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileabWddX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56514/devtools/browser/b77cd26d-bd34-4ead-8882-78a6b3f12631
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56979
+1669934580386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56980" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilevUwTxc"
+1669934580736	Marionette	INFO	Marionette enabled
+1669934580741	Marionette	INFO	Listening on port 56999
+WebDriver BiDi listening on ws://127.0.0.1:56980
+Read port: 56999
+1669934581034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilevUwTxc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56980/devtools/browser/c8127504-4474-426b-80fc-f419b3e2aea9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669934602094	Marionette	INFO	Stopped listening on port 56999
+[Parent 9048, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 9048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1669934797891	geckodriver	INFO	Listening on 127.0.0.1:60809
+1669934800924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60810" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileN4R5rs"
+1669934801311	Marionette	INFO	Marionette enabled
+1669934801318	Marionette	INFO	Listening on port 60825
+Read port: 60825
+WebDriver BiDi listening on ws://127.0.0.1:60810
+1669934801444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileN4R5rs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60810/devtools/browser/fdcd4c17-9b93-4fd2-9ced-66a165a9102f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669934822297	Marionette	INFO	Stopped listening on port 60825
+1669934884734	geckodriver	INFO	Listening on 127.0.0.1:61117
+1669934887764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61118" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileNogCpD"
+1669934888103	Marionette	INFO	Marionette enabled
+1669934888108	Marionette	INFO	Listening on port 61131
+WebDriver BiDi listening on ws://127.0.0.1:61118
+Read port: 61131
+1669934888407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileNogCpD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61118/devtools/browser/eb7594b7-f78c-4150-8829-20b1a720824a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669934910042	Marionette	INFO	Stopped listening on port 61131
+1669934993901	geckodriver	INFO	Listening on 127.0.0.1:61464
+1669934996953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileUJ1mkz"
+1669934997289	Marionette	INFO	Marionette enabled
+1669934997294	Marionette	INFO	Listening on port 61478
+WebDriver BiDi listening on ws://127.0.0.1:61465
+Read port: 61478
+1669934997588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileUJ1mkz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61465/devtools/browser/ea0cc954-9782-4c99-a8db-2f2ecd27215e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669935018480	Marionette	INFO	Stopped listening on port 61478
+1669935137497	geckodriver	INFO	Listening on 127.0.0.1:61894
+1669935140543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileWswkul"
+1669935140905	Marionette	INFO	Marionette enabled
+1669935140910	Marionette	INFO	Listening on port 61930
+Read port: 61930
+WebDriver BiDi listening on ws://127.0.0.1:61895
+1669935141038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileWswkul\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61895/devtools/browser/f4097d6c-7ebe-4ce3-8f3a-7044a95861b4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669935162595	Marionette	INFO	Stopped listening on port 61930
+[Parent 12340, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669935380031	geckodriver	INFO	Listening on 127.0.0.1:62446
+1669935383068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62447" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileCDMG0D"
+1669935383407	Marionette	INFO	Marionette enabled
+1669935383413	Marionette	INFO	Listening on port 62459
+WebDriver BiDi listening on ws://127.0.0.1:62447
+Read port: 62459
+1669935383863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileCDMG0D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62447/devtools/browser/b8ae306f-740d-4c1c-aff6-88396749f4fd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669935409040	Marionette	INFO	Stopped listening on port 62459
+[Parent 35636, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669935577566	geckodriver	INFO	Listening on 127.0.0.1:62947
+1669935580596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62948" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilewdNHwP"
+1669935580951	Marionette	INFO	Marionette enabled
+1669935580956	Marionette	INFO	Listening on port 62961
+WebDriver BiDi listening on ws://127.0.0.1:62948
+Read port: 62961
+1669935581252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilewdNHwP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62948/devtools/browser/a22efa60-10d0-4340-aa21-ead5a549464c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669935607792	Marionette	INFO	Stopped listening on port 62961
+1669991455739	geckodriver	INFO	Listening on 127.0.0.1:62904
+1669991458803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62905" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilenI6eyH"
+1669991459260	Marionette	INFO	Marionette enabled
+1669991459268	Marionette	INFO	Listening on port 62921
+WebDriver BiDi listening on ws://127.0.0.1:62905
+Read port: 62921
+1669991459543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilenI6eyH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62905/devtools/browser/68c569dc-3b57-4a8f-b445-d587505249a6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1669991482785	Marionette	INFO	Stopped listening on port 62921
+1670253817726	geckodriver	INFO	Listening on 127.0.0.1:64458
+1670253820763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilePSLW3x"
+1670253821085	Marionette	INFO	Marionette enabled
+1670253821093	Marionette	INFO	Listening on port 64469
+Read port: 64469
+WebDriver BiDi listening on ws://127.0.0.1:64459
+1670253821213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilePSLW3x\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64459/devtools/browser/2ad6768b-2752-4c9e-aa26-f58f1403d62e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1670253842030	Marionette	INFO	Stopped listening on port 64469
+1670351839470	geckodriver	INFO	Listening on 127.0.0.1:52508
+1670351842503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileAslrma"
+1670351842884	Marionette	INFO	Marionette enabled
+1670351842890	Marionette	INFO	Listening on port 52520
+Read port: 52520
+WebDriver BiDi listening on ws://127.0.0.1:52509
+1670351843033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofileAslrma\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52509/devtools/browser/9091f964-43db-4f7f-a5fd-f73db29560ee
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1670351864399	Marionette	INFO	Stopped listening on port 52520
+1670423432238	geckodriver	INFO	Listening on 127.0.0.1:56330
+1670423435295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilesD2ySw"
+1670423435666	Marionette	INFO	Marionette enabled
+1670423435672	Marionette	INFO	Listening on port 56340
+Read port: 56340
+WebDriver BiDi listening on ws://127.0.0.1:56331
+1670423435806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilesD2ySw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56331/devtools/browser/a1241757-02be-490b-9b8d-5e25ea2b1469
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1670423457479	Marionette	INFO	Stopped listening on port 56340
+1670509817329	geckodriver	INFO	Listening on 127.0.0.1:57354
+1670509820367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilehOO9zL"
+1670509820736	Marionette	INFO	Marionette enabled
+1670509820742	Marionette	INFO	Listening on port 57366
+Read port: 57366
+WebDriver BiDi listening on ws://127.0.0.1:57355
+1670509820898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilehOO9zL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57355/devtools/browser/6491c2f3-efb3-450a-b096-b1c68358777a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://app.levelfields.ai."
+1670509842488	Marionette	INFO	Stopped listening on port 57366
+1670527818279	geckodriver	INFO	Listening on 127.0.0.1:53063
+1670527821300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofiletoKBoK"
+1670527821642	Marionette	INFO	Marionette enabled
+1670527821646	Marionette	INFO	Listening on port 53074
+WebDriver BiDi listening on ws://127.0.0.1:53064
+Read port: 53074
+1670527821942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofiletoKBoK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53064/devtools/browser/fe211486-53a8-4d23-aa5b-1503dedb5b59
+1670527837878	Marionette	INFO	Stopped listening on port 53074
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670527873787	geckodriver	INFO	Listening on 127.0.0.1:53203
+1670527876818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53204" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilexuiWav"
+1670527877150	Marionette	INFO	Marionette enabled
+1670527877155	Marionette	INFO	Listening on port 53216
+Read port: 53216
+WebDriver BiDi listening on ws://127.0.0.1:53204
+1670527877250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\conner\\AppData\\Local\\Temp\\rust_mozprofilexuiWav\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53204/devtools/browser/80da96cf-7c03-492d-82a1-976de8196c5d

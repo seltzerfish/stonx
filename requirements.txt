@@ -1,5 +1,8 @@
+setuptools<58
 alpaca-trade-api
 requests
 black
 beautifulsoup4
 pygooglenews
+lxml
+selenium
