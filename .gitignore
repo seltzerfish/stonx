@@ -3,3 +3,4 @@ venv/
 creds.py
 *.pyc
 geckodriver.log
+*.log
