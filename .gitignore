@@ -2,3 +2,4 @@ venv/
 .vscode/
 creds.py
 *.pyc
+*.log
