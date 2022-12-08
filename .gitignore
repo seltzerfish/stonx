@@ -2,4 +2,4 @@ venv/
 .vscode/
 creds.py
 *.pyc
-*.log
+geckodriver.log
