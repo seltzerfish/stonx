@@ -3,6 +3,6 @@ alpaca-trade-api
 requests
 black
 beautifulsoup4
-pygooglenews
+# pygooglenews           maybe not working anymore
 lxml
 selenium
