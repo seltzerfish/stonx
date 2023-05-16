@@ -1,5 +1,5 @@
 from constants import API
-
+from datetime import datetime
 
 class Position:
     def __init__(self, stock, buy_order, sell_strategy):
@@ -8,6 +8,7 @@ class Position:
         self.sell_order = None
         self.exited = False
         self.sell_strategy = sell_strategy
+        self.order_filled_time = datetime.now()
         self.entry_price = 0
         self.qty = 0
         self.investment = 0
@@ -25,6 +26,7 @@ class Position:
         self.qty = placed_buy_order.filled_qty
         self.entry_price = float(placed_buy_order.filled_avg_price)
         self.investment = self.entry_price * float(placed_buy_order.qty)
+        self.order_filled_time = datetime.now()
         return True
 
     def update(self):

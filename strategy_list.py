@@ -1,7 +1,7 @@
 from sourcing_strats.tradeview import TopMovers, MostVolatile
 from buying_strats.dumb import RandomBuy, ChooseFirst
 from selling_strats.trailing_stop import TrailingStop
-from selling_strats.dont_sell import DontSellTilEOD, NeverSell
+from selling_strats.dont_sell import DontSellTilEOD, NeverSell, DontSellTilNextDay
 from sourcing_strats.hardcoded import Hardcoded
 from sourcing_strats.apewisdom import ShortSqueeze
 from sourcing_strats.levelfields import LatestBullish
@@ -25,4 +25,13 @@ LEVELFIELDS_STRATEGY = Strategy(
     ],
     ChooseFirst(),
     DontSellTilEOD(),
+)
+
+LEVELFIELDS_STRATEGY_ALT = Strategy(
+    "LEVELFIELDS",
+    [
+        LatestBullish(),
+    ],
+    ChooseFirst(),
+    DontSellTilNextDay(),
 )

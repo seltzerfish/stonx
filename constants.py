@@ -4,7 +4,7 @@ from creds import PAPER, REAL
 MAX_POSITIONS = 5  # TODO: put this in Strategy?
 USING_REAL_MONEY = False
 MIN_STOCK_PRICE = 10
-
+EQUITY = 25000
 if USING_REAL_MONEY:
     API = alpaca.REST(REAL["api_key"], REAL["secret_key"], REAL["endpoint"])
 else:

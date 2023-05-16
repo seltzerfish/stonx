@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Abstract class.
 class SourcingStrategy(ABC):
-    def __init__(self, refresh_period_hours=10):
+    def __init__(self, refresh_period_hours=1):
         self.cache = set()
         self.last_sourced = datetime.utcnow()
         self.refresh_period_hours = refresh_period_hours

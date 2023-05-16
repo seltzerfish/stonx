@@ -1,11 +1,11 @@
 from math import floor
 from time import sleep
-from constants import MAX_POSITIONS, MIN_STOCK_PRICE
+from constants import MAX_POSITIONS, MIN_STOCK_PRICE, EQUITY
 from util.misc_util import market_closing_soon
 
 
 class TradeBot:
-    def __init__(self, strategy, equity=10000):
+    def __init__(self, strategy, equity=EQUITY):
         self.positions = []
         self.strategy = strategy
         self.equity = equity
@@ -34,10 +34,14 @@ class TradeBot:
         return False
 
     def buy(self):
+        print("beginning buy")
         # source list of stocks
         stocks = self.strategy.source()
+        print("stocks before filtering: " + str(stocks))
         self.remove_stocks_already_holding(stocks)
         self.remove_stocks_too_low_price(stocks)
+
+        print("stocks after filtering: " +  str(stocks))
         if not list(stocks):
             return
         # pick one from the list
@@ -48,7 +52,8 @@ class TradeBot:
 
     def remove_stocks_already_holding(self, stocks):
         for p in self.positions:
-            stocks.remove(p.stock)
+            if p.stock in stocks:
+                stocks.remove(p.stock)
 
     def remove_stocks_too_low_price(self, stocks):
         stocks = [s for s in stocks if s.get_price() > MIN_STOCK_PRICE]

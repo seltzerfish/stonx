@@ -1,6 +1,5 @@
 from util.alpaca_util import get_current_price
 
-
 class Stock:
     def __init__(self, symbol):
         self.data = dict()
@@ -23,3 +22,4 @@ class Stock:
 
     def __repr__(self):
         return self.data["symbol"]
+

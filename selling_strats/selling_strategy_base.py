@@ -35,7 +35,6 @@ class SellingStrategyBase(ABC):
                 type="market",
                 time_in_force="day",
             )
-
     @abstractmethod
     def update(self, position: Position):
         pass
